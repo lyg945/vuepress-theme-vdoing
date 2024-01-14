@@ -194,14 +194,14 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         {
           iconClass: 'icon-erji',
           title: '听音乐',
-          link: 'https://music.163.com/#/playlist?id=755597173',
+          link: 'https://music.163.com',
         },
       ],
     },
 
     // 页脚信息
     footer: {
-      createYear: 2024, // 博客创建年份
+      createYear: 2019, // 博客创建年份
       copyrightInfo:
         '左岸 | <a href="https://github.com/lyg945/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
     },
@@ -329,9 +329,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       {
         choosen: 'gitalk',
         options: {
-          clientID: 'a6e1355287947096b88b',
-          clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
-          repo: 'blog-gitalk-comment', // GitHub 仓库
+          clientID: '766e8bd62e2f56efce26',
+          clientSecret: 'ba6eb8f31002b4046d717d0e4b85173f6bd45f1e',
+          repo: 'vuepress-theme-vdoing', // GitHub 仓库
           owner: 'lyg945', // GitHub仓库所有者
           admin: ['lyg945'], // 对仓库有写权限的人
           // distractionFreeMode: true,
