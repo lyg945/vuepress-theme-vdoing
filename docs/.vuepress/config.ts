@@ -238,6 +238,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     //     src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
     //   },
     // ], // 网站关联Google AdSense 与 html格式广告支持（你可以去掉）
+    [
+      'script',
+      {
+        src: 'https://hm.baidu.com/hm.js?5ef39128d9f4502c33f3a8aeea7007d9',
+      },
+    ], // 百度统计代码
   ],
 
 
